@@ -27,7 +27,10 @@ public class ApiKeyFilter extends OncePerRequestFilter {
 
         // Rotas públicas que não precisam de API Key
         if (path.startsWith("/usuarios/login") ||
-                path.startsWith("/usuarios/post")) {
+                path.startsWith("/usuarios/post")||
+                path.equals("/usuarios/TODOS") ||
+                path.equals("dashboard/corridas-por-dia/{usuarioId}"))
+        {
             filterChain.doFilter(request, response);
             return;
         }

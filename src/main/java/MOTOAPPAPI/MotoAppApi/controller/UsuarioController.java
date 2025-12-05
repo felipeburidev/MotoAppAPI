@@ -44,6 +44,7 @@ public class UsuarioController {
     //GET TODOS (TESTE)
     @GetMapping("/TODOS")
     public List<Usuario> listarTodos() {
+
         return usuarioRepository.findAll();
     }
 
