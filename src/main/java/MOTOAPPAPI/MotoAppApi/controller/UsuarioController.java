@@ -33,14 +33,10 @@ public class UsuarioController {
     }
 
 
-// Não me pergunte como isso funciona, porque eu não sei.
-// Se eu remover o LIST , o código quebra.
-// Tenho consciência de que usar LIST para carregar todos os usuários deixa o código mais lento,
-// mas já tentei de tudo para fazer isso funcionar sem ele simplesmente não vai.
+
     @GetMapping("/{id}")
     public Usuario fyndBy_usuarioId(@PathVariable("id") UUID usuarioId) {
-        *
-        <Usuario> todos = usuarioRepository.findAll();
+
         return usuarioRepository.findById(usuarioId).orElseThrow(() -> new RuntimeException("USUARIO NÃO ENCONTRADO"));
     }
 
@@ -52,7 +48,7 @@ public class UsuarioController {
     }
 
 
-    // Login
+
 
     // Login
     @PostMapping("/login")
