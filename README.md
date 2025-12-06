@@ -190,6 +190,7 @@ graph TB
     <h3>🚀 Stack Atualizada e Produtiva</h3>
     <p>Combinação moderna de tecnologias estabelecidas para desenvolvimento ágil e performance garantida</p>
 </div>
+
 ## 📊 Modelo de Dados
 
 ### 🧑‍💼 **Usuario**
