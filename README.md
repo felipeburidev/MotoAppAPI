@@ -5,12 +5,191 @@ API RESTful desenvolvida em **Spring Boot** para gestão financeira e operaciona
 
 **Objetivo:** Facilitar o controle financeiro de motoristas autônomos, fornecendo ferramentas profissionais para análise de rentabilidade e tomada de decisão.
 
-## 🚀 Tecnologias
-- **Java 17** com **Spring Boot 3.1.5**
-- **Spring Data JPA** + **Hibernate**
-- **MySQL 8.0** com armazenamento UUID como BINARY(16)
-- **Lombok** para redução de boilerplate
-- **Maven** para gerenciamento de dependências
+# 🚀 Tecnologias Utilizadas
+
+<div align="center">
+
+## 🏗️ **Stack Tecnológica**
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin: 30px 0;">
+
+<!-- Spring Boot Card -->
+<div style="background: linear-gradient(135deg, #6DB33F 0%, #4A913C 100%); 
+            border-radius: 10px; 
+            padding: 20px; 
+            width: 200px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 32px; margin-bottom: 10px;">🌱</div>
+    <h3 style="margin: 10px 0; font-weight: bold;">Spring Boot</h3>
+    <div style="background: rgba(255,255,255,0.2); 
+                padding: 5px 10px; 
+                border-radius: 20px; 
+                display: inline-block;
+                font-weight: bold;">3.5.7</div>
+    <p style="margin-top: 10px; font-size: 14px; opacity: 0.9;">
+        Framework principal para construção da API REST
+    </p>
+</div>
+
+<!-- Java Card -->
+<div style="background: linear-gradient(135deg, #ED8B00 0%, #D87C00 100%); 
+            border-radius: 10px; 
+            padding: 20px; 
+            width: 200px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 32px; margin-bottom: 10px;">☕</div>
+    <h3 style="margin: 10px 0; font-weight: bold;">Java</h3>
+    <div style="background: rgba(255,255,255,0.2); 
+                padding: 5px 10px; 
+                border-radius: 20px; 
+                display: inline-block;
+                font-weight: bold;">21</div>
+    <p style="margin-top: 10px; font-size: 14px; opacity: 0.9;">
+        Linguagem principal com LTS para performance
+    </p>
+</div>
+
+<!-- MySQL Card -->
+<div style="background: linear-gradient(135deg, #4479A1 0%, #2C5F8A 100%); 
+            border-radius: 10px; 
+            padding: 20px; 
+            width: 200px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 32px; margin-bottom: 10px;">🐬</div>
+    <h3 style="margin: 10px 0; font-weight: bold;">MySQL</h3>
+    <div style="background: rgba(255,255,255,0.2); 
+                padding: 5px 10px; 
+                border-radius: 20px; 
+                display: inline-block;
+                font-weight: bold;">8.0</div>
+    <p style="margin-top: 10px; font-size: 14px; opacity: 0.9;">
+        Banco relacional com UUID BINARY(16)
+    </p>
+</div>
+
+<!-- Spring Data JPA Card -->
+<div style="background: linear-gradient(135deg, #6DB33F 0%, #4A913C 100%); 
+            border-radius: 10px; 
+            padding: 20px; 
+            width: 200px; 
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 32px; margin-bottom: 10px;">🗄️</div>
+    <h3 style="margin: 10px 0; font-weight: bold;">Spring Data JPA</h3>
+    <div style="background: rgba(255,255,255,0.2); 
+                padding: 5px 10px; 
+                border-radius: 20px; 
+                display: inline-block;
+                font-weight: bold;">3.5.7</div>
+    <p style="margin-top: 10px; font-size: 14px; opacity: 0.9;">
+        Persistência de dados com Hibernate
+    </p>
+</div>
+
+</div>
+
+## 🔧 **Tecnologias Adicionais**
+
+<div style="display: flex; flex-wrap: wrap; gap: 15px; justify-content: center; margin: 30px 0;">
+
+<!-- Lombok Card -->
+<div style="background: linear-gradient(135deg, #4B2C5F 0%, #3A1E4A 100%); 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 180px; 
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 24px; margin-bottom: 8px;">⚡</div>
+    <h4 style="margin: 8px 0; font-weight: bold;">Lombok</h4>
+    <p style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+        Redução de boilerplate
+    </p>
+</div>
+
+<!-- Maven Card -->
+<div style="background: linear-gradient(135deg, #C71A36 0%, #A5152B 100%); 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 180px; 
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 24px; margin-bottom: 8px;">📦</div>
+    <h4 style="margin: 8px 0; font-weight: bold;">Maven</h4>
+    <p style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+        Gerenciamento de dependências
+    </p>
+</div>
+
+<!-- Jakarta Card -->
+<div style="background: linear-gradient(135deg, #4A6FA5 0%, #3A5985 100%); 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 180px; 
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 24px; margin-bottom: 8px;">🔌</div>
+    <h4 style="margin: 8px 0; font-weight: bold;">Jakarta EE</h4>
+    <p style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+        APIs modernas de persistência
+    </p>
+</div>
+
+<!-- Git Card -->
+<div style="background: linear-gradient(135deg, #F05032 0%, #D14028 100%); 
+            border-radius: 10px; 
+            padding: 15px; 
+            width: 180px; 
+            box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+            text-align: center;
+            color: white;">
+    <div style="font-size: 24px; margin-bottom: 8px;">📁</div>
+    <h4 style="margin: 8px 0; font-weight: bold;">Git</h4>
+    <p style="margin-top: 5px; font-size: 12px; opacity: 0.9;">
+        Controle de versão
+    </p>
+</div>
+
+</div>
+
+</div>
+
+## 🏗️ **Arquitetura Tecnológica**
+
+```mermaid
+graph TB
+    A[Frontend React<br/>Em Desenvolvimento] --> B[API REST<br/>Spring Boot 3.5.7]
+    B --> C[Spring Data JPA<br/>Camada de Persistência]
+    C --> D[MySQL 8.0<br/>Banco de Dados]
+    E[Java 21<br/>Linguagem Base] --> B
+    F[Lombok<br/>Produtividade] --> B
+    G[Maven<br/>Dependências] --> B
+```
+
+## 📊 **Vantagens da Stack Escolhida**
+
+| Tecnologia | Benefício | Uso no Projeto |
+|------------|-----------|----------------|
+| **Spring Boot 3.5.7** | Configuração rápida, embarcado Tomcat | API REST com autoconfiguração |
+| **Java 21** | Performance, LTS, recursos modernos | Lógica de negócio e cálculos |
+| **MySQL 8.0** | Confiabilidade, performance, JSON | Armazenamento UUID BINARY(16) |
+| **Spring Data JPA** | Abstração de persistência, queries otimizadas | CRUD automático das entidades |
+
+---
+
+<div align="center" style="margin-top: 40px; padding: 20px; background: #f5f5f5; border-radius: 10px;">
+    <h3>🚀 Stack Atualizada e Produtiva</h3>
+    <p>Combinação moderna de tecnologias estabelecidas para desenvolvimento ágil e performance garantida</p>
+</div>
 
 ## 📊 Modelo de Dados
 
